@@ -1,7 +1,16 @@
 .DS_Store
 node_modules/
-dist/
-.angular/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
 .env
 .env.*
 !.env.example
+.ipynb_checkpoints/
+
+# Large dataset
+backend/data/ratings.csv
+
+# Large generated artifact
+backend/artifacts/user_factors.npy
